@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec  8 23:09:53 2025
+# Process ID: 35280
+# Current directory: D:/Grade3/myCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7612 D:\Grade3\myCPU\CPUfpga.xpr
+# Log file: D:/Grade3/myCPU/vivado.log
+# Journal file: D:/Grade3/myCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Grade3/myCPU/CPUfpga.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Grade3/myCPU/CPUfpga.sim/sim_1/behav/testbench_behav.wcfg
+source testbench.tcl
+close_sim

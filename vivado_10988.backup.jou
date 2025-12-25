@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  9 03:59:02 2025
+# Process ID: 10988
+# Current directory: D:/Grade3/myCPU1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8556 D:\Grade3\myCPU1\CPUfpga.xpr
+# Log file: D:/Grade3/myCPU1/vivado.log
+# Journal file: D:/Grade3/myCPU1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Grade3/myCPU1/CPUfpga.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+launch_simulation
+open_wave_config D:/Grade3/myCPU1/CPUfpga.sim/sim_1/behav/testbench_behav.wcfg
+source testbench.tcl
+update_compile_order -fileset sources_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Grade3/myCPU1/CPUfpga.runs/impl_1/Mycpu_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Grade3/myCPU1/CPUfpga.runs/impl_1/Mycpu_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
